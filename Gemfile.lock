@@ -1,8 +1,10 @@
 PATH
   remote: .
   specs:
-    jwt_authenticatable (0.0.1)
+    jwt_authenticatable (0.0.3)
+      jwt
       rails (~> 4.2.6)
+      rake
 
 GEM
   remote: https://rubygems.org/
@@ -50,6 +52,7 @@ GEM
       activesupport (>= 4.1.0)
     i18n (0.7.0)
     json (1.8.3)
+    jwt (1.5.4)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
