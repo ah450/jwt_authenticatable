@@ -1,4 +1,5 @@
 # Concern for User class JWT authentication.
+require 'authentication_error'
 module JwtAuthenticatable
   extend ActiveSupport::Concern
 
